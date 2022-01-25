@@ -17,7 +17,7 @@ export class PostService {
 
   getPosts(): Observable<Post[]> {
     return this.http.get<Post[]>(`${this.url}/posts`).pipe(
-      catchError((errot: any): Observable<any> => {
+      catchError((error: any): Observable<any> => {
         return of({});
       })
     );
