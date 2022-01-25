@@ -10,6 +10,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { OptionOneComponent } from './layout/option-one/option-one.component';
 import { OptionTwoComponent } from './layout/option-two/option-two.component';
 import { OptionThreeComponent } from './layout/option-three/option-three.component';
+import { OptionFourComponent } from './layout/option-four/option-four.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { OptionThreeComponent } from './layout/option-three/option-three.compone
     LayoutComponent,
     OptionOneComponent,
     OptionTwoComponent,
-    OptionThreeComponent
+    OptionThreeComponent,
+    OptionFourComponent
   ],
   imports: [
     BrowserModule,
