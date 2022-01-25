@@ -9,7 +9,9 @@ import { Post } from 'src/app/interfaces/post';
 export class OptionOneComponent implements OnInit {
 
   @Input() posts: Post[] = [];
-  
+  @Input() itemsPerPage: number = 10;
+  page = 1;
+
   constructor() { }
 
   ngOnInit(): void {

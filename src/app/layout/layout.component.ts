@@ -10,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class LayoutComponent implements OnInit {
 
   active = 1;
+  itemsPerPage = 12;
   posts: Post[] = [];
 
   constructor(
